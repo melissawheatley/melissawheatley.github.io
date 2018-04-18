@@ -1,1 +1,11 @@
 node_modules
+.DS_Store
+index-template.html
+LICENSE
+README-agency.md
+dist/
+img/
+css/
+lib/.sass-cache
+lib/node_modules
+lib/package-lock.json
