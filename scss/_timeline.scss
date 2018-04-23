@@ -52,10 +52,10 @@
       height: 80px;
       margin-left: 0;
       text-align: center;
-      color: white;
+      color: $brand-green;
       border: 7px solid $gray-200;
       border-radius: 100%;
-      background-color: $primary;
+      background-color: $white;
       h4 {
         font-size: 10px;
         line-height: 14px;
@@ -89,6 +89,7 @@
       color: inherit;
       &.subheading {
         text-transform: none;
+        color: $brand-green;
       }
     }
   }
