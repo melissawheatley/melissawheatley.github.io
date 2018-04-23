@@ -1,11 +1,8 @@
 node_modules
 .DS_Store
-index-template.html
-LICENSE
-README-agency.md
-dist/
-img/
-css/
 lib/.sass-cache
 lib/node_modules
 lib/package-lock.json
+img/process/home_banner_blue3.png
+img/process/home_banner_lav2.png
+img/process/home_banner_pink1.png
