@@ -1,3 +1,5 @@
+@import "variables.scss";
+
 // Global styling for this template
 body {
   overflow-x: hidden;
@@ -16,7 +18,17 @@ a {
 }
 
 .text-primary {
-  color: $primary !important;
+  color: $brand-green !important;
+}
+
+.icon-circle {
+  color: $dark-blue !important;
+}
+
+.mw-card{
+  padding: 2rem;
+  background-color: $purple;
+  color: $white!important;
 }
 
 h1,
@@ -30,7 +42,7 @@ h6 {
 }
 
 section {
-  padding: 100px 0;
+  padding: 80px 0;
   h2.section-heading {
     font-size: 40px;
     margin-top: 0;
@@ -47,7 +59,7 @@ section {
 }
 @media(min-width:768px) {
   section {
-    padding: 150px 0;
+    padding: 80px 0;
   }
 }
 
@@ -59,23 +71,27 @@ section {
 
 .btn-xl {
   font-size: 18px;
-  padding: 20px 40px;
+  padding: 10px 40px;
 }
 
 .btn-primary {
-  background-color: $primary;
-  border-color: $primary;
+  background-color: $purple;
+  border-color: $purple;
   &:active,
   &:focus,
   &:hover {
-    background-color: darken($primary, 7.5%) !important;
-    border-color: darken($primary, 7.5%) !important;
+    background-color: darken($purple, 7.5%) !important;
+    border-color: darken($purple, 7.5%) !important;
     color: white;
   }
   &:active,
   &:focus {
-    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55,.5) !important;
+    box-shadow: 0 0 0 0.2rem rgba(107, 54, 122, 0.5) !important;
   }
+}
+
+.btn a{
+  color: white;
 }
 
 // Highlight color customization
@@ -95,4 +111,43 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+.bg-light{
+  background-color: $mist !important;
+}
+
+.bg-secondary{
+  background-color: #e0e0e0 !important;
+}
+
+.btn-outline-primary{
+  color: $brand-green;
+  border-color: $brand-green;
+}
+
+.btn-outline-primary a{
+  color: $brand-green;
+}
+
+.btn-outline-primary:hover{
+    color: $white!important;
+    background-color: $brand-green;
+    border-color: $brand-green;
+}
+
+.btn-outline-primary a:hover{
+  color: $white!important;
+  text-decoration: none;
+}
+
+.btn-outline-secondary{
+  color: $purple;
+  border-color: $purple;
+}
+
+.btn-outline-secondary:hover{
+    color: $white;
+    background-color: $purple;
+    border-color: $purple;
 }

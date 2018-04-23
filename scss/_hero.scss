@@ -1,8 +1,9 @@
 // Styling for the masthead
-header.masthead {
+header.hero {
   text-align: center;
-  color: white;
-  background-image: url('../img/header-bg.jpg');
+  color: $brand-green;
+  // background-color: $brand-green;
+  background-image: url('../img/main-v2.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10,39 +11,44 @@ header.masthead {
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
-    .intro-lead-in {
-      font-size: 22px;
+    .intro-tagline {
+      font-size: 16px;
+      padding: 15px 15px;
       font-style: italic;
       line-height: 22px;
-      margin-bottom: 25px;
+      color: $purple!important;
       @include serif-font;
     }
     .intro-heading {
-      font-size: 50px;
+      padding: 5px;
+      font-size: 25px;
       font-weight: 700;
-      line-height: 50px;
-      margin-bottom: 25px;
+      line-height: 40px;
       @include heading-font;
+    }
+    .intro-list{
+      padding: 15px;
     }
   }
 }
 @media(min-width:768px) {
-  header.masthead {
+  header.hero {
     .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
-      .intro-lead-in {
-        font-size: 40px;
+      padding-top: 220px;
+      padding-bottom: 280px;
+      padding-left: 330px;
+      .intro-tagline {
+        font-size: 24px;
+        padding: 3px 0;
         font-style: italic;
         line-height: 40px;
-        margin-bottom: 25px;
         @include serif-font;
       }
       .intro-heading {
-        font-size: 75px;
+        font-size: 65px;
+        padding: 10px 0;
         font-weight: 700;
         line-height: 75px;
-        margin-bottom: 50px;
         @include heading-font;
       }
     }
