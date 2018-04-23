@@ -142,9 +142,9 @@ img::-moz-selection {
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: white;
+    color: #000;
     border: 0;
-    background-color: #fed136;
+    background-color: #96bdc6;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   #mainNav .navbar-brand {
     color: #fed136;
