@@ -5,8 +5,8 @@ footer {
   background-color: $brand-green;
   color: $mist;
   padding: 25px 2rem;
-  text-align: right;
-  span.copyright {
+  display: flex;
+  .copyright {
     font-size: 90%;
     line-height: 40px;
     text-transform: none;
