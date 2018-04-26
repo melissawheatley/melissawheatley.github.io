@@ -516,8 +516,8 @@ footer {
   background-color: #1e3f20;
   color: #cddddd;
   padding: 25px 2rem;
-  text-align: right; }
-  footer span.copyright {
+  display: flex; }
+  footer .copyright {
     font-size: 90%;
     line-height: 40px;
     text-transform: none;
