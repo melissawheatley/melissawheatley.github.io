@@ -496,7 +496,7 @@ header.hero {
   .team-member img {
     width: 150px;
     height: 150px;
-    border: 7px solid #FDFFFC; }
+    border: 7px solid #cddddd; }
   .team-member h4 {
     margin-top: 10px;
     text-align: center;
@@ -510,7 +510,7 @@ header.hero {
     .team-member img {
       width: 225px;
       height: 225px;
-      border: 7px solid #FDFFFC; }
+      border: 7px solid #cddddd; }
     .team-member h4 {
       margin-top: 25px;
       margin-bottom: 0;
