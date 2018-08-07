@@ -1,3 +1,4 @@
+@import url("https://use.typekit.net/ylu5wzs.css");
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -496,7 +497,7 @@ header.hero {
   .team-member img {
     width: 150px;
     height: 150px;
-    border: 7px solid #cddddd; }
+    border: 7px solid #FDFFFC; }
   .team-member h4 {
     margin-top: 10px;
     text-align: center;
@@ -510,7 +511,7 @@ header.hero {
     .team-member img {
       width: 225px;
       height: 225px;
-      border: 7px solid #cddddd; }
+      border: 7px solid #FDFFFC; }
     .team-member h4 {
       margin-top: 25px;
       margin-bottom: 0;
@@ -533,5 +534,36 @@ footer {
     line-height: 40px;
     text-transform: none;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+body {
+  margin: 0 !important;
+  padding: 0 !important; }
+
+.wedding {
+  background: url("./../img/melissastephen-hero.jpg") no-repeat center bottom fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+
+.text-blue {
+  display: flex;
+  z-index: 100;
+  margin: auto; }
+
+.wedding-text {
+  background-color: #283c5cbf;
+  color: white;
+  padding: .5em;
+  line-height: 1.2em; }
+
+.title {
+  font-size: 30px; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
 
 /*# sourceMappingURL=main.css.map */
