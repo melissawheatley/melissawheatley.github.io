@@ -3,7 +3,10 @@
 @theme {
   --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
   --font-display: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
-  --color-navy: #0b1220;
+  --color-primary: #1e3f20;
+  --color-secondary: #2e4052;
+  --color-tertiary: #cddddd;  
+  --color-quaternary: #5b2333;
   --color-slate-950: #020617;
   --color-slate-900: #0f172a;
   --color-slate-800: #1e293b;
@@ -11,9 +14,7 @@
   --color-slate-500: #64748b;
   --color-slate-400: #94a3b8;
   --color-slate-200: #e2e8f0;
-  --color-slate-100: #f1f5f9;
-  --color-teal-300: #5eead4;
-  --color-teal-400: #2dd4bf;
+  --color-slate-100: #fdfffc;
 }
 
 @layer base {
@@ -30,20 +31,20 @@
   body {
     margin: 0;
     min-width: 320px;
-    background-color: var(--color-navy);
-    color: var(--color-slate-400);
+    background-color: var(--color-primary);
+    color: var(--color-slate-200);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
   ::selection {
-    background-color: color-mix(in oklab, var(--color-teal-300) 30%, transparent);
+    background-color: color-mix(in oklab, var(--color-tertiary) 30%, transparent);
     color: var(--color-slate-100);
   }
 
   :focus-visible {
-    outline: 2px solid var(--color-teal-300);
+    outline: 2px solid var(--color-tertiary);
     outline-offset: 3px;
   }
 }

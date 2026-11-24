@@ -11,16 +11,13 @@ export function Sidebar({ activeId }: SidebarProps) {
       <div>
         <div>
           <h1 className="font-display text-4xl font-bold tracking-tight text-slate-100 sm:text-5xl">
-            <a href="/" className="transition-colors hover:text-teal-300">
+            <a href="/" className="transition-colors hover:text-tertiary">
               {profile.name}
             </a>
           </h1>
-          <h2 className="mt-3 font-display text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
+          <h2 className="mt-3 font-display text-lg font-medium tracking-tight text-slate-400 sm:text-xl">
             {profile.role}
           </h2>
-          {/* <p className="mt-4 max-w-xs text-base leading-relaxed text-slate-400">
-            {profile.tagline}
-          </p> */}
           <Contact />
         </div>
 
@@ -45,7 +42,7 @@ export function Sidebar({ activeId }: SidebarProps) {
                       }`}
                     />
                     <span
-                      className={`nav-text text-xs font-bold tracking-[0.15em] uppercase transition-colors ${
+                      className={`nav-text text-sm font-bold tracking-[0.15em] uppercase transition-colors ${
                         isActive
                           ? 'text-slate-200'
                           : 'text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200'

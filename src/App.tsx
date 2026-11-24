@@ -1,7 +1,6 @@
 import { About } from './components/About'
 import { Experience } from './components/Experience'
 import { Footer } from './components/Footer'
-import { Contact } from './components/Contact'
 // import { Projects } from './components/Projects'
 import { Sidebar } from './components/Sidebar'
 import { navLinks } from './data/content'
@@ -21,7 +20,7 @@ export default function App() {
 
       <a
         href="#content"
-        className="absolute left-0 top-0 z-50 -translate-x-[150%] rounded bg-teal-300 px-4 py-3 text-sm font-medium text-navy transition focus:translate-x-0"
+        className="absolute left-0 top-0 z-50 -translate-x-[150%] rounded bg-teal-300 px-4 py-3 text-sm font-medium text-secondary transition focus:translate-x-0"
       >
         Skip to Content
       </a>
@@ -30,7 +29,7 @@ export default function App() {
         <div className="lg:flex lg:justify-between lg:gap-4">
           <Sidebar activeId={activeId} />
 
-          <main id="content" className="pt-24 lg:w-[52%] lg:py-24">
+          <main id="content" className="pt-18 lg:w-[52%] lg:py-24">
             <About />
             <Experience />
             {/* <Projects /> */}

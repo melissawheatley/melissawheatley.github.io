@@ -8,21 +8,24 @@ export const profile = {
   socials: [
     {
       label: 'LinkedIn',
+      alt: 'Melissa Robertson on LinkedIn',
       href: 'https://linkedin.com/in/melissa-robertson-nashville',
       icon: 'linkedin' as const,
     },
     {
       label: 'Email',
+      alt: 'Email Melissa',
       href: 'mailto:melissa@melissarobertson.com',
-      icon: 'mail' as const,
+      icon: 'email' as const,
     },
     {
       label: 'GitHub',
+      alt: '@melissawheatley on Github',
       href: 'https://github.com/melissawheatley',
       icon: 'github' as const,
     },
   ],
-  resumeHref: '/MelissaRobertson_Resume2026.pdf',
+  resumeHref: 'https://drive.google.com/file/d/19QCKZicS8tg-6MCxlwU0cOxapwCRnCS1/view?usp=sharing',
 }
 
 export const navLinks = [
@@ -33,10 +36,12 @@ export const navLinks = [
 
 export const about = {
   paragraphs: [
-    `I'm a Nashville-based UI engineer with 8+ years of experience who can sit confidently at the crossroads of front-end engineering and product design. I care about the connective tissue between design and code — the components, patterns, and design infrastructure that help teams ship consistent interfaces at scale.`,
-    `I move easily from Cursor to Figma and back again, leaning more and more into the world of AI-assisted development. I know that well-documented context is the backbone of a system that leaves no room for AI slop.`,
-    `I get excited about thorough documentation, improving accessibility, understanding the "why" behind the design, and seeing how people (and agents) use what I build.`
-  ],
+    `I’m a Nashville-based UI engineer with 8+ years of experience working at the intersection of front-end engineering and product design. I care about the connective tissue between design and code — the components, patterns, and infrastructure that help teams ship consistent interfaces at scale.`,
+
+`I’m equally comfortable in my IDE (currently Cursor) and Figma, and I’m exploring how AI-assisted development can make the work better. I believe thorough documentation and clear context make handoffs between teams smoother and help keep AI slop out. I get excited about accessible interfaces, understanding the “why” behind a design, and seeing how people (and agents) use what I build.`,
+
+`Ultimately, I want to build systems that make it easier for designers to explore ideas and enable engineers to build with confidence and consistency. If that sounds like a good fit for your team, I’d love to hear from you!`
+  ]
 }
 
 export type ExperienceItem = {

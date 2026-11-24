@@ -1,6 +1,6 @@
 # Melissa Robertson — Portfolio
 
-React portfolio site inspired by [Brittany Chiang](https://brittanychiang.com/)’s sticky two-column layout.
+React portfolio site inspired by [Brittany Chiang](https://brittanychiang.com/)’s sticky two-column layout. This site is at the MVP stage and is undergoing improvements. 
 
 ## Stack
 
